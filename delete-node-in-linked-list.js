@@ -13,7 +13,8 @@
  * @return {void} Do not return anything, modify node in-place instead.
  */
 const deleteNode = function (node) {
+  // copy next node's val into current node
+  // delete next node
   node.val = node.next.val;
   node.next = node.next.next;
 };
-console.log(deleteNode([4, 5, 1, 9], 1));

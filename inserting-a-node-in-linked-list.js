@@ -2,7 +2,7 @@ var head;
 
 class Node {
   constructor(val) {
-    (this.val = val), (this.nex = null);
+    (this.val = val), (this.next = null);
   }
 }
 
