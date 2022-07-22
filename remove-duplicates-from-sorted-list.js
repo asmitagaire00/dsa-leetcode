@@ -1,3 +1,4 @@
+//Qn:https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
